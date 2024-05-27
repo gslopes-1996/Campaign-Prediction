@@ -1,6 +1,6 @@
 ### Santander Coders 2023 - 2024 | 2º semestre - DS (Turma #1114)
 
-### **Grupo:** Demetrio Martins ,Gabriel Frenner , Gabriela Milagres, Miller Machado, Suzielli Mendonça
+### **Grupo:** Demetrio Martins, Gabriel Lopes, Gabriela Milagres, Miller Machado, Suzielli Mendonça
 
 ### **Projeto**  
 Machine Learning II   
