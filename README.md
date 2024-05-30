@@ -64,5 +64,24 @@ Fazer uma análise completa do perfil dos clientes do conjunto de dados. A anál
     - [GradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
     - Métrica de avaliação do teste: acurácia e f1-score
 
+### **Conclusão do Projeto:**
+Este projeto visou a identificação de perfis de clientes utilizando dados de 2014, com o objetivo de melhorar a performance de modelos preditivos em campanhas de marketing. Foram utilizados dois métodos de modelagem: aprendizado de máquina não supervisionado (para identificar grupos de clientes com comportamentos semelhantes) e aprendizado de máquina supervisionado, para prever a aceitação de ofertas de campanhas.    
+
+**Conclusões:**
+
+- Identificação de Perfis de Clientes:
+    - Utilizando dados de campanhas anteriores e características dos clientes, identificamos três grandes perfis de clientes. Isso foi alcançado através de técnicas de aprendizado de máquina não supervisionado (clusterização).
+
+- Melhoria da Performance do Modelo:
+    - A inclusão da coluna 'cluster', derivada da clusterização, no modelo preditivo supervisionado resultou em um pequeno aumento em todas as métricas de performance.
+
+- Métricas de Performance:
+    - Precisão (Precision): Aumentou de 0.86 para 0.88.
+    - Recall: Aumentou de 0.96 para 0.97.
+    - F1-score: Aumentou de 0.91 para 0.92.
+    - Acurácia: Aumentou de 0.85 para 0.87.
+
+Esses resultados demonstram que a segmentação dos clientes em clusters antes da aplicação do modelo preditivo supervisionado pode fornecer informações de modo a contribuir para a melhoria da eficácia das campanhas de marketing.
+
 ---
 **Fim do projeto**
